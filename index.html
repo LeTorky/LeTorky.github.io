@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Inventory System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="../css/style.css"> 
+    <!-- Linking Javascript file -->
+    <script defer src="../js/script.js"></script>
+</head>
+<body>
+    <!-- decoration -->
+    <div id="gif"></div>
+    <!-- Authentication -->
+    <div id="auth"></div>
+    <!-- Login Container -->
+    <div id="loginContainer">
+        <label for="userName">Username</label>
+        <input name="userName" id="user" required placeholder="Enter your username" type="text">
+        <label for="passWord">Password</label>
+        <input name="passWord" id="pass" required placeholder="Enter your password" type="password">
+        <button onclick="login()">Login</button>
+    </div>
+    <!-- Nav Bar -->
+    <div id="navBar">
+        <div id="logo">Ph™</div>
+        <div id="navContent">
+            <div class="banner">INVENTORY ▼</div>
+            <div class="content" onclick="showTable(1)">SHOW</div>
+            <div class="content" onclick="addItemPanel()">ADD</div>
+            <div class="content" onclick="showTable(2)">TRANS</div>
+            <div class="banner">INVOICES ▼</div>
+            <div class="content" onclick="showTable(0)">SHOW</div>
+            <div class="banner admin">USERS ▼</div>
+            <div class="content admin" onclick="addUserPanel()">ADD</div>
+        </div>
+    </div>
+    <!-- Table Show -->
+    <div id="tableShow">
+        <div id="tableBanner"></div>
+        <div id="tableContent">
+            <table id="table">
+                <thead>
+                    <tr id="headContent">
+                        
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- Transaction Form -->
+    <div id="trans">
+        <input type="text" id="input2" placeholder="Party Name...">
+        <button onclick="contentTrans(0)" class="transButt">Buy From</button>
+        <button onclick="contentTrans(1)" class="transButt">Sell To</button>
+    </div>
+    <!-- footer -->
+    <footer><div id="logout" onclick="fetchLogged(1)">Log out</div><div id="footer">Pharmacy ™</div></footer>
+    <!-- image container -->
+    <canvas style="display: none;" id="canvas"></canvas>
+    <!-- hovering image -->
+    <img id="hoverImage" style="display: none;">
+</body>
+</html>
