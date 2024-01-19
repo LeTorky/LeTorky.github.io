@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34a84032.css",
+    "main.js": "/static/js/main.baa1b08a.js",
+    "static/media/wallpaper.png": "/static/media/wallpaper.62b1edd991245cbc28e2.png",
+    "static/media/Profile.png": "/static/media/Profile.a3db8267e7eb731ca222.png",
+    "static/media/OAuth2.png": "/static/media/OAuth2.b459e4f74f40f667045c.png",
+    "static/media/dotNetCore.png": "/static/media/dotNetCore.e5b8df37931defa97ceb.png",
+    "static/media/djangoRest.png": "/static/media/djangoRest.2a61624b98cab1df4d15.png",
+    "static/media/graphql.png": "/static/media/graphql.1224fc6637ab2be805ae.png",
+    "static/media/postgre.png": "/static/media/postgre.a7fa39912c91e079e90b.png",
+    "static/media/reactjs.png": "/static/media/reactjs.809fed23bcdd686de66e.png",
+    "static/media/nodeJs.png": "/static/media/nodeJs.007e99f68b718e476aba.png",
+    "static/media/express.png": "/static/media/express.04e4743fbd704db71ed7.png",
+    "static/media/c-sharp.png": "/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
+    "static/media/docker.png": "/static/media/docker.8a1129935134843e08e4.png",
+    "static/media/angular.png": "/static/media/angular.4abb259b09dd9e388514.png",
+    "static/media/python.png": "/static/media/python.c2f539d50caa3745ce64.png",
+    "static/media/efCore.png": "/static/media/efCore.9601fa8ce87ea1be72a3.png",
+    "static/media/django.png": "/static/media/django.559d0c6161a6fb950f02.png",
+    "static/media/text.png": "/static/media/text.eda2ba048fc39b905a18.png",
+    "static/media/es6.png": "/static/media/es6.6b2c0fb9fc0bee09aebc.png",
+    "static/media/SQLServer.png": "/static/media/SQLServer.e86266577871de7f46f3.png",
+    "index.html": "/index.html",
+    "main.34a84032.css.map": "/static/css/main.34a84032.css.map",
+    "main.baa1b08a.js.map": "/static/js/main.baa1b08a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34a84032.css",
+    "static/js/main.baa1b08a.js"
+  ]
+}
